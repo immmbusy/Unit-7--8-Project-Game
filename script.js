@@ -27,24 +27,6 @@ $("#submitButton").click(function() {
     } else {
         result = "a weeb";
     }
-    
-    // if (description === 1) {
-    //     result = "Tang San";
-    //     background = tang;
-    // } else if (description === 2) {
-    //     result = "Dai Mubai";
-    //     background = dai;
-    // } else if (description === 3) {
-    //     result = "Hu Liena";
-    //     background = hu;
-    // } else {
-    //     if (gender.startsWith("f")) {
-    //         result = "Xiao Wu";
-    //         background = xiao;
-    //     } else {
-    //         result = "Lazy !!";
-    //     }
-    // }
 
     $(".resultResponse").prepend(`<p>You identify as ${gender}</p>`);
     $("#character").text(result);
