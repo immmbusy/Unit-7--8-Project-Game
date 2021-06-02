@@ -1,0 +1,16 @@
+.h1 {
+    text-align: center;
+}
+
+.result {
+    display: None;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 400px;
+}
+body {
+   color:#ffffff;
+   background: rgb(36,0,33);
+background: linear-gradient(90deg, rgba(36,0,33,1) 0%, rgba(121,9,107,0.9923319669664741) 35%, rgba(0,237,255,1) 100%);
+}
